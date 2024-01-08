@@ -12,6 +12,3 @@ def index():
 def publications():
     return render_template("research.html")
 
-
-if __name__ == '__main__':
-    app.run(debug=True)
